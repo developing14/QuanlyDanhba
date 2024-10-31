@@ -96,9 +96,7 @@ deleteContact() {
 this.$emit("delete:contact", this.contactLocal.id);
 },
 Cancel(){
-const reply = window.confirm('You have unsaved changes! Do you want to
-
-leave?')
+const reply = window.confirm('You have unsaved changes! Do you want to leave?')
 
 if (!reply) {
 // stay on the page if
